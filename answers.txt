@@ -1,12 +1,13 @@
 What is a gitignore file and what should it include for a Java project?
-
+Ignores the file extension that does not need to be read by Git. Files included in .gitignore for Java projects are .project, .class. .logfiles, .jar, .war.
 
 
 What does fast-forward in Git mean?
-
+It can be performed when there is a direct linear path from source to target branch
 
 Why should you have different branches?
-
+To allow the developer to test out various features without breaking the main branch code
 
 
 In a project how many remote Git repositories do you usually have?
+As many as you want, there is no strict value on how many you can have
